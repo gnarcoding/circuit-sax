@@ -1,0 +1,39 @@
+{
+  "checks": [
+    "Front/back/left/right/isometric camera views",
+    "Orbit drag / wheel zoom, with auto-rotation stopping on interaction",
+    "Hidden cap does not intercept selection of the switch beneath",
+    "X-ray display and low-effects rendering",
+    "Full +3 transposition, unsupported FF state, audio opt-in and zero gain on power-off / hidden-event handler",
+    "Malformed-mesh response shows an error while the remaining WebGL scene renders",
+    "Reduced-motion preference disables automatic orbit"
+  ],
+  "errors": [],
+  "cameraPositions": {
+    "Front": [
+      68.11793144723396,
+      40.0693086988774,
+      862.2950868953541
+    ],
+    "Back": [
+      68.04857453716114,
+      40.040275573730526,
+      -931.7271792976069
+    ],
+    "Left": [
+      -828.4219619666309,
+      40.040275573730526,
+      -9.969324310574518
+    ],
+    "Right": [
+      963.370911711064,
+      40.040275573730526,
+      -8.78577602811087
+    ],
+    "Iso": [
+      418.7393951414012,
+      186.36118637059326,
+      777.2148632777137
+    ]
+  }
+}

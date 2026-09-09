@@ -1,0 +1,40 @@
+{
+  "name": "circuit-sax-assembly-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "prepare-assets": "node scripts/prepare-assets.mjs",
+    "predev": "npm run prepare-assets",
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "prebuild": "npm run prepare-assets",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "pretest": "npm run prepare-assets",
+    "test": "vitest run",
+    "test:browser": "node scripts/browser-test.mjs && node scripts/browser-extra.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.8",
+    "@react-three/fiber": "9.7.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "22.20.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@types/three": "0.180.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "agent-browser": "0.27.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.6",
+    "vitest": "4.1.11"
+  }
+}

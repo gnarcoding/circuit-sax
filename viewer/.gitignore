@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.npm-cache/
+public/assets/
+test-results/*
+!test-results/assembled.png
+!test-results/exploded.png
+!test-results/selected-connections.png
+!test-results/bench.png
+!test-results/cap-switch-closeup.png
+!test-results/asset-neck.png
+!test-results/narrow.png
+!test-results/xray.png
+!test-results/simulation.png
+!test-results/browser-report.json
+!test-results/browser-extra-report.json
